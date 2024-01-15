@@ -2,7 +2,6 @@ import React from "react";
 import UseData from "../../Hooks/UseData";
 import Footer from "../../Share/Footer";
 import "../../Share/Style.css";
-import SliderCommon from "../../Share/SliderCommon";
 import AboutCard from "./AboutCard";
 import HomeCard from "../../Share/HomeCard";
 import PageTitle from "../../Share/PageTitle";
@@ -30,15 +29,10 @@ const AboutTwo = () => {
                 <div className="col-span-12 space-y-2.5">
                   <div className="lg:mr-16">
                     <p className="text-gray-lite  dark:text-color-910 leading-7">
-                      I'm Creative Director and UI/UX Designer from Sydney,
-                      Australia, working in web development and print media. I
-                      enjoy turning complex problems into simple, beautiful and
-                      intuitive designs.
+
                     </p>
                     <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
-                      My aim is to bring across your message and identity in the
-                      most creative way. I created web design for many famous
-                      brand companies.
+
                     </p>
                   </div>
                 </div>
@@ -48,15 +42,10 @@ const AboutTwo = () => {
               <div className="col-span-12 space-y-2.5">
                 <div className="lg:mr-16">
                   <p className="text-gray-lite  dark:text-color-910 leading-7">
-                    I'm Creative Director and UI/UX Designer from Sydney,
-                    Australia, working in web development and print media. I
-                    enjoy turning complex problems into simple, beautiful and
-                    intuitive designs.
+                    Hello! I'm Alex Baker, an enthusiastic Chemistry student at Dublin City University, eagerly exploring opportunities where science meets the business world. With a solid foundation in chemical principles and a knack for problem-solving, I'm ready to dive into challenges that blend scientific understanding with practical applications.
                   </p>
                   <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
-                    My aim is to bring across your message and identity in the
-                    most creative way. I created web design for many famous
-                    brand companies.
+                    Whether it's in a specialized science field or a broader, interdisciplinary environment, I'm excited to contribute and grow in any dynamic and challenging setting!
                   </p>
                 </div>
               </div>
@@ -66,7 +55,7 @@ const AboutTwo = () => {
 
           <div className="  pb-12 px-2 sm:px-5 md:px-10 lg:px-14 ">
             <h3 className="text-[35px] dark:text-white font-medium pb-5">
-              What I do!
+              What I can do!
             </h3>
             <div className="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-2 ">
               {/* Experience information  */}
@@ -77,11 +66,6 @@ const AboutTwo = () => {
             </div>
           </div>
           {/* service provide end */}
-
-          <div className="px-2 sm:px-5 md:px-10 lg:px-14 ">
-            {/* Slick Slider call here  */}
-            <SliderCommon />
-          </div>
 
           {/* Common Footer call here */}
           <Footer bg={"#FFFF"} />

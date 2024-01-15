@@ -75,7 +75,7 @@ const About = () => {
                           <h6 className="font-medium dark:text-white">
                             <a
                               className="hover:text-[#FA5252] duration-300 transition"
-                              href="tel:+1234567890"
+                              href="tel:087 6543 210"
                             >
                               +123 456 7890
                             </a>

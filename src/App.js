@@ -20,15 +20,13 @@ function App() {
   return (
     <>
       <ContextProvider>
-        <BrowserRouter basename="/premium3/build">
+        <BrowserRouter basename="/">
           <Routes>
             <Route path="/" element={<HomeTwo />}>
               <Route index element={<AboutTwo />} />
               <Route path="about" element={<AboutTwo />} />
               <Route path="resume" element={<ResumeTwo />} />
-              <Route path="contact" element={<ContactTwo />} />
-              <Route path="blogs" element={<BlogTwo />} />
-              <Route path="works" element={<PortfiloTwo />} />
+              <Route path="projects" element={<PortfiloTwo />} />
             </Route>
             <Route path="*" element={<NotFound />} />
           </Routes>
