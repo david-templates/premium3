@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 // for work_images
-import work1 from "../assets/images/work_images/1.jpg";
-import work2 from "../assets/images/work_images/2.jpg";
-import work3 from "../assets/images/work_images/3.jpg";
+import work1 from "../assets/images/work_images/1.png";
+import work2 from "../assets/images/work_images/2.png";
+import work3 from "../assets/images/work_images/3.png";
 
 // works small images
-import workSmall1 from "../assets/images/work_images/small/1.jpg";
-import workSmall2 from "../assets/images/work_images/small/2.jpg";
-import workSmall3 from "../assets/images/work_images/small/3.jpg";
+import workSmall1 from "../assets/images/work_images/small/1.png";
+import workSmall2 from "../assets/images/work_images/small/2.png";
+import workSmall3 from "../assets/images/work_images/small/3.png";
 
 // blog post images
 import blog6 from "../assets/images/blog_images/6.jpg";
