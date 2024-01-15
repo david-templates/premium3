@@ -30,7 +30,7 @@ const ResumeTwo = () => {
             <div className="grid grid-cols-1  md:grid-cols-2 gap-8">
               <div className="col-span-1">
                 <h4 className="text-5xl dark:text-white font-medium mb-6">
-                  Working Skills
+                  Technical Skills
                 </h4>
                 {/* Experience percent element */}
                 {lineArray.map((item, i) => (
@@ -42,19 +42,19 @@ const ResumeTwo = () => {
 
               <div className="col-span-1">
                 <h4 className="text-5xl dark:text-white font-medium mb-8">
-                  Knowledges
+                  Non-technical skills
                 </h4>
 
                 {/* Knowledges items */}
 
                 <div className="flex gap-y-5 gap-x-2.5 flex-wrap">
-                  <button className="resume-btn">Digital Design</button>
-                  <button className="resume-btn">Marketing</button>
-                  <button className="resume-btn">Social Media</button>
-                  <button className="resume-btn">Print</button>
+                  <button className="resume-btn">Communication</button>
+                  <button className="resume-btn">Teamwork</button>
                   <button className="resume-btn">Time Management</button>
-                  <button className="resume-btn">Flexibility</button>
-                  <button className="resume-btn">Print</button>
+                  <button className="resume-btn">Creative</button>
+                  <button className="resume-btn">Attention to detail</button>
+                  <button className="resume-btn">Adaptable</button>
+                  <button className="resume-btn">Interpersonal skills</button>
                 </div>
               </div>
 

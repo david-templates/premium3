@@ -51,7 +51,7 @@ const CommonPortfilo = ({ condition, items }) => {
           <div className="container mb-8   px-4 sm:px-5 md:px-10 lg:px-[60px]">
             <div className="py-12">
               <h2 className="after-effect  after:left-48 mt-12  lg:mt-0">
-                Portfolio
+                Projects
               </h2>
 
               {/* Portfilo fillter tab start */}
@@ -69,7 +69,7 @@ const CommonPortfilo = ({ condition, items }) => {
                 >
                   All
                 </li>
-                <li
+                {/* <li
                   className={`${
                     test === "Video" ? "text-[#FA5252]" : "fillter-btn"
                   } mr-4 md:mx-4`}
@@ -100,7 +100,7 @@ const CommonPortfilo = ({ condition, items }) => {
                   onClick={() => handleSearch("UI/UX")}
                 >
                   Graphic Design
-                </li>
+                </li> */}
               </ul>
 
               {/* Portfilo fillter tab start */}
@@ -168,24 +168,17 @@ const CommonPortfilo = ({ condition, items }) => {
                       <p className="dark:text-white flex items-center text-[15px]  sm:text-lg ">
                         <FiFilePlus className="sm:text-lg hidden sm:block mr-2  md:text-xl" />
                         Project :&nbsp;{" "}
-                        <span className="font-medium "> Website</span>
+                        <span className="font-medium "> {singleData?.title}</span>
                       </p>
                       <p className="dark:text-white flex items-center text-[15px]  sm:text-lg ">
                         <FiCode className="text-lg mr-2 hidden sm:block " />
-                        Langages :&nbsp;
+                        Skills developed :&nbsp;
                         <span className="font-medium ">
                           {singleData?.langages}
                         </span>
                       </p>
                     </div>
                     <div className="space-y-2">
-                      <p className="dark:text-white flex items-center mt-2 lg:mt-0 text-[15px]  sm:text-lg ">
-                        <FiUser className="text-lg mr-2 hidden sm:block" />
-                        Client :&nbsp;
-                        <span className="font-medium ">
-                          {singleData?.client}
-                        </span>
-                      </p>
                       <p className="dark:text-white flex items-center text-[15px] sm:text-lg ">
                         <FiExternalLink className="text-lg mr-2 hidden sm:block" />
                         Preview :&nbsp;
