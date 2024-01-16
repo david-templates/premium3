@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet-async";
 const PageTitle = ({ title }) => {
   return (
     <Helmet>
-      <title>{title} - Page description here</title>
+      <title>Premium Template 3</title>
     </Helmet>
   );
 };
